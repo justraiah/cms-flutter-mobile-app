@@ -322,24 +322,6 @@ class DashboardScreen extends StatelessWidget {
               const SizedBox(height: 12),
 
               _DashboardCard(
-                icon: Icons.history,
-                title: 'Consultations',
-                subtitle: 'View your consultation history',
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const PlaceholderScreen(
-                        title: 'Consultations',
-                      ),
-                    ),
-                  );
-                },
-              ),
-
-              const SizedBox(height: 12),
-
-              _DashboardCard(
                 icon: Icons.monitor_heart,
                 title: 'Vital Signs',
                 subtitle: 'View your recorded vital signs',
